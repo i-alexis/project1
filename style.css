@@ -21,12 +21,12 @@ main{
     scroll-snap-align: center;
 }
 h1{
-    font-size: 90pt;
+    font-size: 110pt;
     font-family: 'Mansalva', cursive;
     letter-spacing: 0px;
     font-stretch: expanded;  line-height: 0.5;
-
-    font-weight: normal;
+   
+    font-weight: lighter;
 }
 
 body{
@@ -87,8 +87,9 @@ body{
     color:#d4d2bb;
 }
 #six{
-    grid-column: 2/6;
+    grid-column: 3/6;
     grid-row: 2/4;
+    
 }
 .seven{
     background-color: #466150;
@@ -137,8 +138,17 @@ body{
 #twelve{
     grid-column: 2/6;
     grid-row: 2/4;
+    z-index: 1;
 }
 h2{
     text-align: right;
+    z-index: 2;
+}
+.six>img{
+    widows: 50vw;
+    width: auto;
+    display: inline;
+    float: left;
+    margin: 0px;
 }
 
