@@ -25,7 +25,7 @@ h1{
     font-family: 'Mansalva', cursive;
     letter-spacing: 0px;
     font-stretch: expanded;  line-height: 0.5;
-    margin: 0px;
+
     font-weight: normal;
 }
 
@@ -84,6 +84,7 @@ body{
 }
 .six{
     background-color: #375146;
+    color:#d4d2bb;
 }
 #six{
     grid-column: 2/6;
@@ -91,6 +92,7 @@ body{
 }
 .seven{
     background-color: #375144;
+    color:#d4d2bb;
 }
 #seven{
     grid-column: 2/6;
@@ -98,37 +100,45 @@ body{
 }
 .eight{
     background-color: #3d574a;
+    color:#d4d2bb;
 }
 #eight{
     grid-column: 2/6;
     grid-row: 2/4;
 }
 .nine{
-    background-color: #466351;
+    background-color: #5b7359;
+    color:#d4d2bb;
 }
 #nine{
     grid-column: 2/6;
     grid-row: 2/4;
 }
 .ten{
-    background-color: #4e6752;
+    background-color: #80926c;
+    color:#d4d2bb;
 }
 #ten{
     grid-column: 2/6;
     grid-row: 2/4;
 }
 .eleven{
-    background-color: #6f8262;
+    background-color: #a4ae8c;
+    color:#3a3a36;
 }
 #eleven{
     grid-column: 2/6;
     grid-row: 2/4;
 }
 .twelve{
-    background-color: #466351;
+    background-color: #d3d1b8;
+    color:#202020;
 }
 #twelve{
     grid-column: 2/6;
     grid-row: 2/4;
+}
+h2{
+    text-align: right;
 }
 
